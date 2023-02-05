@@ -10,7 +10,8 @@ body {
     font-family: poppins, sans-serif;
 }
 
-
-#logo {
-
+/* headings area */
+.logo-area {
+    float: left;
+    
 }
