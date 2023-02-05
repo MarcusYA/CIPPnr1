@@ -11,7 +11,19 @@ body {
 }
 
 /* headings area */
-.logo-area {
+#logo-area img {
     float: left;
+    width: 110px;
+    height: 110px;
+    margin-left: 40px;
+}
+
+.logo-area a {
+    position: relative;
+    top: 18px;
+    left: 10px;
     text-decoration: none;
+    font-size: 200%;
+    color: black;
+    letter-spacing: 4px;
 }
