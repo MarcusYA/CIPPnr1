@@ -11,19 +11,49 @@ body {
 }
 
 /* headings area */
+
+#logo-area {
+    line-height: 80px;
+}
+
 #logo-area img {
     float: left;
     width: 110px;
     height: 110px;
-    margin-left: 40px;
+    margin-left: 50px;
 }
 
-.logo-area a {
+#logo-area .txtlogo {
     position: relative;
-    top: 18px;
-    left: 10px;
+    top: 20px;
+    left: 20px;
+    list-style-type: none;
     text-decoration: none;
-    font-size: 200%;
-    color: black;
+    font-size: 150%;
+    color: rgb(0, 0, 0);
     letter-spacing: 4px;
 }
+
+
+
+/* menu area*/
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    top: 20px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    letter-spacing: 5px;
+    margin-right: 35px;
+    font-size: 100%;
+}
+
+#menu a:hover {
+    font-size: 110%;
+    color: red;
+}
+
