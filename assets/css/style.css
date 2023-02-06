@@ -59,7 +59,10 @@ body {
 }
 
 #bgimage {
-    background: url(/assets/images/pexels-cottonbro-studio-7336713.jpg);
-    height: 150px;
+    background: url(/assets/images/pexels-cottonbro-studio-7336713.jpg) no-repeat center center;
+    height: 1000px;
     width: 100%;
+    overflow:hidden;
+    position: relative;
+    background-size: cover;
 }
