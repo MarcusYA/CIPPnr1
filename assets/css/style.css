@@ -58,3 +58,8 @@ body {
     color: red;
 }
 
+#bgimage {
+    background: url(/assets/images/pexels-cottonbro-studio-7336713.jpg);
+    height: 150px;
+    width: 100%;
+}
